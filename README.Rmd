@@ -1,0 +1,62 @@
+---
+title: "Problems May Come Out in Building"
+author: "Qinxiao Shi"
+date: "9/9/2018"
+output: pdf_document
+---
+
+
+### My Computer System
+
+```{r echo=FALSE}
+sessionInfo()
+```
+
+
+### Problem 1
+
+If Build window warning 
+```
+missing Loadname() 'package name'
+```
+just use the code
+```
+install.packages("package_name")
+```
+Sometimes the package is not available in RStudio. Just google it and follow the process in relevant github web page.
+
+
+
+### Problem 2 
+
+If Build window warning missing "pandoc" or "XQuartz", go to the website shown in the warning and install it.
+
+
+
+### Problem 3
+
+If your Console warns "unknown timezone" or something relevant, you need to go https://cran.r-project.org/bin/macosx/ and install R 3.5.1.
+
+
+
+### Problem 4
+
+If Build window shown warning of missing font style, just google it, then download and install it.
+
+
+
+### Problem 5
+
+If the _main.pdf has been created and these words are shown in Build window,
+```
+Output created: _book/_main.pdf
+Warning messages:
+1: The label(s) function-answer not found</span###
+2: The label(s) functional-arguments not found
+3: The label(s) prefix-form not found
+4: The label(s) varying-argument not found
+```
+it means you did good job and building is finished.
+
+# comptools-sakuracmfy
+# comptools-sakuracmfy
